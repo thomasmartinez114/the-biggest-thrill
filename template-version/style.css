@@ -1,3 +1,9 @@
+/* Background Image */
+body {
+    background-image: url(./img/bt.png);
+}
+
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -25,6 +31,10 @@
     color: #d5d5d5;
 }
 
+.row {
+    color: #fff;
+}
+
 #icon {
     max-width: 200px;
     margin: 1% auto;
@@ -34,7 +44,7 @@
 footer {
     width: 100%;
     background-color: #5e4485;
-    padding: 5%;
+    padding: 2%;
     color: #fff;
 }
 
