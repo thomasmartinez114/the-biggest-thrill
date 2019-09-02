@@ -39,10 +39,19 @@
       .navbar-inverse .navbar-nav li a {
         color: #d5d5d5;
       }
-
       #icon {
         max-width: 200px;
         margin: 1% auto;
+      }
+
+      /* Edit for mobile images */
+      @media (max-width: 600px) {
+        #icon {
+          max-width: 150px;
+        }
+        h4 {
+          font-size: 1.7em;
+        }
       }
     </style>
   </head>
@@ -87,6 +96,35 @@
         <div class="col-sm-4">
           <img src="img/css3.png" id="icon" alt="" />
           <h4>CSS3</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h4>The standard Lorem Ipsum passage, used since the 1500s</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="img/bootstrap2.jpg" class="img-responsive" alt="" />
         </div>
       </div>
     </div>
