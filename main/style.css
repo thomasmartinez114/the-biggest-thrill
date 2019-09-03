@@ -8,15 +8,15 @@ article {
     padding: 1px;
 }
 
-.header-container {
-    /* display: flex;
-    justify-content: center; */
-}
+/* .header-container {
+    display: flex;
+    justify-content: center;
+} */
 
-.header {
-    /* display: flex;
-    justify-content: center; */
-}
+/* .header {
+    display: flex;
+    justify-content: center;
+} */
 
 article {
     background-image: url("img/bt-bg.png");
