@@ -1,4 +1,14 @@
+/* 2019/09/04 version */
 * {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* 2019/08/25 version */
+/* * {
     margin: 0;
     padding: 0;
 }
@@ -18,10 +28,10 @@ article {
     justify-content: center;
 } */
 
-article {
+/* article {
     background-image: url("img/bt-bg.png");
     background-repeat: repeat-y;
     padding: 10px;
-    /* display: flex;
-    justify-content: center; */
-}
+    display: flex;
+    justify-content: center;
+} */
